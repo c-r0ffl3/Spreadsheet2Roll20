@@ -1,0 +1,116 @@
+:root {
+    /* Colors */
+    --primary: #222;
+    --secondary: #666;
+    --teritory: #999;
+    --primary-background: #f9f9f9;
+    --secondary-background: #eee;
+    --info: #dca;
+    --info-background: #fffaf0;
+    --white: #fff;
+    --black: #000;
+}
+
+/* Input box */
+.charsheet input[type="text"] {
+    width: 100%;
+    height: auto;
+    line-height: normal;
+    padding: 0px;
+    font-family: inherit;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    outline-style: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.charsheet select {
+    height: auto;
+    line-height: normal;
+    padding-left: 13px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.charsheet select,
+.charsheet div,
+.charsheet textarea,
+.charsheet span,
+.charsheet input,
+.charsheet img,
+.charsheet label {
+    box-sizing: border-box;
+}
+
+.charsheet div {
+    margin: 0px;
+    padding: 0px;
+}
+
+.charsheet input {
+    background-color: transparent;
+    text-align: center;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 1em;
+    color: var(--secondary);
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.charsheet input:focus,
+input:hover,
+textarea:focus,
+textarea:hover,
+select:hover,
+select:focus {
+    background-color: var(--secondary-background);
+    outline: none;
+}
+
+.charsheet input[type="number"] {
+    text-align: center;
+}
+
+.charsheet select {
+    width: auto;
+    text-align: center;
+    text-align-last: center;
+    height: 1.3em;
+    line-height: 1em;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-transform: capitalize;
+    vertical-align: bottom;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 1em;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    resize: none;
+    background: transparent;
+}
+
+.charsheet textarea {
+    width: 100%;
+    background-color: var(--secondary-background);
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    resize: none;
+}
