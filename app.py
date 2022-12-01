@@ -7,7 +7,7 @@ from processor import process
 
 
 class AppFrame(wx.Frame):
-    wildcard = "HTML file (*.html)|*.html|"
+    wildcard = "HTML file (*.html)|*.html"
 
     def __init__(self):
         super().__init__(parent=None, title="Spreadsheet2Roll20", size=(550, -1))

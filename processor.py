@@ -45,7 +45,7 @@ class Processor:
         self.logger.info(f"Process CSS . . .")
         css_element = self.extract_css_from(etree)
         self.adjust_css_and_write(css_element)
-        self.write_additional_styles(self.output_css_filename)
+        self.write_additional_styles()
         return
 
     def extract_css_from(self, etree: html.etree):
