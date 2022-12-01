@@ -52,7 +52,7 @@ class Evaluator():
 
     def roll_button_form(self, roll_name: str, value: str,
                          attributes: dict = None):
-        button_from = E.BUTTON(
+        button_form = E.BUTTON(
             self.attribute_constructor(
                 form_name=f"{self.ROLL_PREFIX}{roll_name}",
                 form_type="roll",
@@ -60,7 +60,7 @@ class Evaluator():
                 form_attributes=attributes
             )
         )
-        return button_from
+        return button_form
 
     def textarea_form(self, attr_name: str,
                       attributes: dict = None):
